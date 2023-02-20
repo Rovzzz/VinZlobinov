@@ -11,8 +11,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             ClassLibrary1.Class1 class1 = new ClassLibrary1.Class1();
-            Console.WriteLine(class1.CheckVIN("JHMCM56557C404453"));
-            Console.WriteLine(class1.GetVINCountry("JHMCM55557CJ04453"));
+            Console.WriteLine(class1.CheckVIN("WVGZZZCAZJC520863"));
+            Console.WriteLine(class1.GetVINCountry("WVGZZZCAZJC520863"));
             Console.ReadKey();
         }
     }
